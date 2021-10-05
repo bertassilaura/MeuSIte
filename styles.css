@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  --pink: #ef626c;
+  --pinkHover: #ff848c;
+  --blueCards: #84dccf;
+  --blueBack: #84dccf81;
+  --black: #000000;
+  --white: #ffffff;
+  --transition: all 0.3s ease 0s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+p,
+a,
+h1,
+h3,
+h4 {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.button_med {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+  transition: var(--transition);
+}
+
+.button_med:hover {
+  background-color: var(--pinkHover);
+}
+
+a,
+button,
+.logo {
+  cursor: pointer;
+}
+
+main {
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+
+.links {
+  margin-left: auto;
+}
+
+.links a,
+.links button {
+  font-size: 1.125rem;
+  font-weight: 400;
+  transition: var(--transition);
+}
+
+.links a {
+  margin-right: 50px;
+}
+
+.links a:hover {
+  color: var(--pink);
+}
+
+.info_me {
+  background-color: var(--blueBack);
+}
+
+.infobackground {
+  width: 100%;
+  background-color: var(--blueBack);
+}
+
+header {
+  background-color: var(--blueBack);
+}
+
+.principal_image {
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+
+.title_font {
+  position: relative;
+  left: 850px;
+  bottom: 300px;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.sec_font {
+  position: relative;
+  left: 850px;
+  bottom: 300px;
+  margin-bottom: 30px;
+}
+
+button {
+  position: relative;
+  left: 850px;
+  bottom: 300px;
+  align-items: center;
+  margin-right: 15px;
+  height: 45px;
+}
+
+.icon_flecha {
+  position: relative;
+  left: 800px;
+  bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.first_font {
+  position: relative;
+  left: 725px;
+  font-size: 30px;
+}
+
+.separator {
+  position: relative;
+  left: 800px;
+}
